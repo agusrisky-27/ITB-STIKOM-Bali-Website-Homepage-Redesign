@@ -1,0 +1,266 @@
+<!--
+Nama  : I Putu Agus Risky Suardana Putra
+NIM   : 24004011
+Kelas : BB244
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewan Perwakilan Mahasiswa - ITB STIKOM Bali</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="home.html" class="logo">
+                <img src="Image/ITB-RESMI-300x300.png" alt="ITB STIKOM Bali Logo">
+            </a>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <!-- Menu 1: Halaman Utama (No Dropdown) -->
+                    <li><a href="home.html">Halaman Utama</a></li>
+                    
+                    <!-- Menu 2: Profile (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Profile <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="visi&misi.html">Visi dan Misi</a></li>
+                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.html">Sejarah</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 3: Keunggulan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Keunggulan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fasilitas.html">Fasilitas Kampus</a></li>
+                            <li><a href="prestasi.html">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 4: Akademik (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Akademik <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="program-studi.html">Fakultas Informatika & Komputer</a></li>
+                            <li><a href="program-studi2.html">Fakultas Bisnis & Vokasi</a></li>
+                            <li><a href="berita&pengumuman.html">Berita & Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 5: Kemahasiswaan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Kemahasiswaan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="kemahasiswaan.html">Bagian Kemahasiswaan</a></li>
+                            <li><a href="DPM.html">Dewan Perwakilan Mahasiswa (DPM)</a></li>
+                            <li><a href="BEM.html">Badan Eksekutif Mahasiswa (BEM)</a></li>
+                        </ul>
+                    </li>
+                
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= PAGE HEADER ================= -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Dewan Perwakilan Mahasiswa</h1>
+            <p>Wadah aspirasi dan pengawasan organisasi kemahasiswaan</p>
+        </div>
+    </section>
+
+    <!-- ================= PROFIL DPM ================= -->
+    <section class="container section">
+        <h2 class="section-title center">Dewan Perwakilan Mahasiswa (DPM)</h2>
+        <p class="section-description center">
+            Dewan Perwakilan Mahasiswa (DPM) Institut Teknologi dan Bisnis STIKOM Bali
+            merupakan lembaga legislatif mahasiswa yang berperan sebagai
+            penyalur aspirasi, pengawas, serta mitra strategis Badan Eksekutif Mahasiswa (BEM)
+            dalam mewujudkan tata kelola organisasi kemahasiswaan yang demokratis
+            dan berintegritas.
+        </p>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title center">Fungsi & Peran DPM</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Penyalur Aspirasi</h3>
+                    <p>
+                        Menampung, mengolah, dan menyalurkan aspirasi mahasiswa
+                        kepada pihak terkait secara demokratis dan bertanggung jawab.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Fungsi Legislasi</h3>
+                    <p>
+                        Menyusun, membahas, dan menetapkan peraturan serta
+                        ketetapan organisasi kemahasiswaan.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-eye"></i>
+                    <h3>Fungsi Pengawasan</h3>
+                    <p>
+                        Mengawasi kinerja Badan Eksekutif Mahasiswa (BEM)
+                        agar berjalan sesuai dengan peraturan yang berlaku.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Representasi Mahasiswa</h3>
+                    <p>
+                        Mewakili mahasiswa dalam forum resmi kemahasiswaan
+                        di tingkat internal maupun eksternal kampus.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Fungsi Mediasi</h3>
+                    <p>
+                        Menjadi mediator dalam penyelesaian permasalahan
+                        organisasi kemahasiswaan secara adil dan objektif.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Penjaga Demokrasi</h3>
+                    <p>
+                        Menjaga dan menegakkan nilai-nilai demokrasi,
+                        transparansi, dan akuntabilitas dalam kehidupan kampus.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container section">
+        <h2 class="section-title center">Struktur Organisasi DPM</h2>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <i class="fas fa-user-tie"></i>
+                <h3>Ketua DPM</h3>
+                <p>
+                    Memimpin dan mengoordinasikan seluruh kegiatan
+                    Dewan Perwakilan Mahasiswa.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user-cog"></i>
+                <h3>Wakil Ketua</h3>
+                <p>
+                    Membantu ketua dalam menjalankan tugas serta
+                    menggantikan ketua apabila berhalangan.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-file-alt"></i>
+                <h3>Sekretaris</h3>
+                <p>
+                    Mengelola administrasi, dokumentasi, dan
+                    surat-menyurat organisasi.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-wallet"></i>
+                <h3>Bendahara</h3>
+                <p>
+                    Mengelola keuangan organisasi secara transparan,
+                    akuntabel, dan bertanggung jawab.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-users-cog"></i>
+                <h3>Anggota DPM</h3>
+                <p>
+                    Perwakilan mahasiswa dari berbagai program studi
+                    yang berperan aktif dalam fungsi legislatif dan pengawasan.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= PENUTUP ================= -->
+    <section class="section cta-section">
+        <div class="container center">
+            <h2>DPM sebagai Pilar Demokrasi Kampus</h2>
+            <p>
+                Dewan Perwakilan Mahasiswa ITB STIKOM Bali hadir untuk
+                menjaga transparansi, akuntabilitas, dan aspirasi mahasiswa
+                demi terciptanya kehidupan kampus yang harmonis dan demokratis.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="Image/stikom2.png" alt="ITB STIKOM Bali Logo">
+                <p>Institut Teknologi dan Bisnis STIKOM Bali</p>
+            </div>
+            <div class="footer-links">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Puputan No. 86, Renon, Denpasar, Bali</p>
+                <p><i class="fas fa-phone-alt"></i> (0361) 244445</p>
+                <p><i class="fas fa-envelope"></i> info@stikom-bali.ac.id</p>
+            </div>
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/STIKOM.Bali"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/itbstikombali"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/stikombali/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>2026 ITB STIKOM BALI</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

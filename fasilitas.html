@@ -1,0 +1,244 @@
+<!--
+Nama  : I Putu Agus Risky Suardana Putra
+NIM   : 24004011
+Kelas : BB244
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasilitas - ITB STIKOM Bali</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="home.html" class="logo">
+                <img src="Image/ITB-RESMI-300x300.png" alt="ITB STIKOM Bali Logo">
+            </a>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <!-- Menu 1: Halaman Utama (No Dropdown) -->
+                    <li><a href="home.html">Halaman Utama</a></li>
+                    
+                    <!-- Menu 2: Profile (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Profile <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="visi&misi.html">Visi dan Misi</a></li>
+                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.html">Sejarah</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 3: Keunggulan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Keunggulan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fasilitas.html">Fasilitas Kampus</a></li>
+                            <li><a href="prestasi.html">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 4: Akademik (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Akademik <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="program-studi.html">Fakultas Informatika & Komputer</a></li>
+                            <li><a href="program-studi2.html">Fakultas Bisnis & Vokasi</a></li>
+                            <li><a href="berita&pengumuman.html">Berita & Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 5: Kemahasiswaan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Kemahasiswaan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="kemahasiswaan.html">Bagian Kemahasiswaan</a></li>
+                            <li><a href="DPM.html">Dewan Perwakilan Mahasiswa (DPM)</a></li>
+                            <li><a href="BEM.html">Badan Eksekutif Mahasiswa (BEM)</a></li>
+                        </ul>
+                    </li>
+                
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= PAGE HEADER ================= -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Fasilitas & Keunggulan</h1>
+            <p>Dukungan lengkap untuk pendidikan, inovasi, dan pengembangan mahasiswa</p>
+        </div>
+    </section>
+
+    <!-- ================= FASILITAS ================= -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title center">Fasilitas & Keunggulan ITB STIKOM Bali</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <i class="fas fa-award"></i>
+                    <h3>Double Akreditasi</h3>
+                    <p>
+                        Satu-satunya perguruan tinggi ICT yang memperoleh
+                        <strong>Akreditasi Internasional</strong> dan
+                        <strong>Akreditasi Nasional B dari BAN-PT</strong>
+                        untuk seluruh program studi.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Perguruan Tinggi Terbaik</h3>
+                    <p>
+                        Terpilih sebagai perguruan tinggi tercerdas dan terbaik
+                        <strong>3 kali berturut-turut</strong> di Bali dan Nusa Tenggara.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Kelas Internasional</h3>
+                    <p>
+                        Perguruan tinggi pertama dan satu-satunya di Bali yang
+                        menyelenggarakan <strong>Kelas Internasional</strong>
+                        melalui Dual Degree Program dan Sandwich Program.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Dosen Profesional</h3>
+                    <p>
+                        Didukung oleh dosen bergelar <strong>S3 dan S2</strong>
+                        yang kompeten di bidang Teknologi Informasi
+                        dan ilmu pendukung lainnya.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-smile"></i>
+                    <h3>Pelayanan Prima</h3>
+                    <p>
+                        Pelayanan akademik dan non-akademik oleh staf
+                        dan manajemen yang ramah, profesional, dan bersahabat.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Sertifikasi Internasional</h3>
+                    <p>
+                        Lulusan dibekali sertifikasi kompetensi internasional
+                        seperti <strong>Microsoft, CISCO, TOEFL</strong>,
+                        dan sertifikasi profesional lainnya.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Daya Serap Lulusan</h3>
+                    <p>
+                        Lulusan memiliki daya serap yang sangat cepat di dunia industri,
+                        bahkan banyak yang telah direkrut sebelum resmi lulus.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Cyberpreneurship Campus</h3>
+                    <p>
+                        Kampus berbasis kewirausahaan digital dengan fasilitas
+                        <strong>inkubator bisnis</strong> yang lengkap dan modern
+                        untuk pengembangan startup mahasiswa.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-building"></i>
+                    <h3>Gedung & Laboratorium</h3>
+                    <p>
+                        Gedung kampus mewah dan modern dengan ruang kuliah nyaman
+                        serta laboratorium lengkap seperti Robotic, Mobile Programming,
+                        Web Programming, Networking, Seni & Budaya, dan lainnya.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Unit Kegiatan Mahasiswa</h3>
+                    <p>
+                        Lebih dari <strong>30 UKM</strong> akademik dan non-akademik
+                        yang aktif dan berprestasi di tingkat nasional.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PENUTUP ================= -->
+    <section class="section cta-section">
+        <div class="container center">
+            <h2>Lingkungan Kampus Unggul</h2>
+            <p>
+                Seluruh fasilitas dan keunggulan ini dirancang untuk mendukung
+                mahasiswa ITB STIKOM Bali menjadi lulusan yang unggul,
+                berdaya saing, dan berwawasan global.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="Image/stikom2.png" alt="ITB STIKOM Bali Logo">
+                <p>Institut Teknologi dan Bisnis STIKOM Bali</p>
+            </div>
+            <div class="footer-links">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Puputan No. 86, Renon, Denpasar, Bali</p>
+                <p><i class="fas fa-phone-alt"></i> (0361) 244445</p>
+                <p><i class="fas fa-envelope"></i> info@stikom-bali.ac.id</p>
+            </div>
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/STIKOM.Bali"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/itbstikombali"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/stikombali/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>2026 ITB STIKOM BALI</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

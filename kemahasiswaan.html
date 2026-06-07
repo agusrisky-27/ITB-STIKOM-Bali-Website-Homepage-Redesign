@@ -1,0 +1,336 @@
+<!--
+Nama  : I Putu Agus Risky Suardana Putra
+NIM   : 24004011
+Kelas : BB244
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemahasiswaan - ITB STIKOM Bali</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="home.html" class="logo">
+                <img src="Image/ITB-RESMI-300x300.png" alt="ITB STIKOM Bali Logo">
+            </a>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <!-- Menu 1: Halaman Utama (No Dropdown) -->
+                    <li><a href="home.html">Halaman Utama</a></li>
+                    
+                    <!-- Menu 2: Profile (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Profile <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="visi&misi.html">Visi dan Misi</a></li>
+                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.html">Sejarah</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 3: Keunggulan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Keunggulan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fasilitas.html">Fasilitas Kampus</a></li>
+                            <li><a href="prestasi.html">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 4: Akademik (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Akademik <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="program-studi.html">Fakultas Informatika & Komputer</a></li>
+                            <li><a href="program-studi2.html">Fakultas Bisnis & Vokasi</a></li>
+                            <li><a href="berita&pengumuman.html">Berita & Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 5: Kemahasiswaan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Kemahasiswaan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="kemahasiswaan.html">Bagian Kemahasiswaan</a></li>
+                            <li><a href="DPM.html">Dewan Perwakilan Mahasiswa (DPM)</a></li>
+                            <li><a href="BEM.html">Badan Eksekutif Mahasiswa (BEM)</a></li>
+                        </ul>
+                    </li>
+                
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Kemahasiswaan</h1>
+            <p>Aktivitas & Organisasi Mahasiswa</p>
+        </div>
+    </section>
+
+    <section class="kemahasiswaan-overview container section">
+        <!-- Header image: ganti "kemahasiswaan-header.png" dengan file gambar Anda -->
+        <div class="overview-image" role="img" aria-label="Gambar kemahasiswaan: struktur organisasi dan aktivitas mahasiswa">
+            <img src="Image/bagan.png" alt="Kemahasiswaan ITB STIKOM Bali" loading="lazy">
+        </div>
+        <p class="section-description">Kemahasiswaan ITB STIKOM Bali merupakan wadah dalam segala bentuk kegiatan-kegiatan ekstrakurikuler mahasiswa yang berhubungan dengan perkembangan soft skill mahasiswa. Terdapat beberapa komponen strategi kemahasiswaan yang dibagi menjadi beberapa bidang.</p>
+
+        <div class="strategy">
+            <h3>Strategi dalam bidang kelembagaan mencakup :</h3>
+            <ul>
+                <li>Penyediaan prasarana dan sarana organisasi yang memadai.</li>
+                <li>Memberi kesempatan kepada mahasiswa yang mempunyai jiwa kepemimpinan dan pengabdian untuk memimpin organisasi kemahasiswaan.</li>
+                <li>Guna bertanggungjawab ikut mengantarkan mahasiswa lainnya sesuai dengan arah dan sasaran pengembangan kemahasiswaan.</li>
+                <li>Peningkatan pelaksanaan pemilihan umum mahasiswa secara tertib sesuai dengan jadwal waktunya.</li>
+                <li>Penyediaan dana yang memadai untuk kegiatan organisasi dan pembimbingan mahasiswa.</li>
+                <li>Peningkatan hubungan antara pejabat dan pembimbingan bidang kemahasiswaan, dosen dan organisasi kemahasiswaan.</li>
+                <li>Peningkatan hubungan dan kerjasama antara pejabat bidang kemahasiswaan dengan pejabat bidang lainnya di dalam dan di luar kampus.</li>
+                <li>Peningkatan peran bagian bimbingan dan konseling di tingkat Perguruan Tinggi untuk membantu mengatasi masalah yang dihadapi mahasiswa.</li>
+                <li>Pembuatan program dan perencanaan kerja dan keuangan organisasi kemahasiswaan yang memfokuskan pada arah dan sasaran pengembangan Kemahasiswaan.</li>
+            </ul>
+
+            <h3>Strategi dalam bidang kerjasama mencakup :</h3>
+            <ul>
+                <li>Peningkatan peran bagian organisasi yang menangani LKMM, Co-operative education serta bekerjasama dengan BELMAWA dan LLDIKTI.</li>
+                <li>Peningkatan kerjasama dengan bagian-bagian yang ada dilingkungan kampus, seperti bagian LP3M, LP2M, dan Dekan Prodi guna bersama-sama menangani pembimbingan kemahasiswaan.</li>
+                <li>Peningkatan Kerjasama dengan luar kampus, seperti lembaga pemerintahan, pihak swasta, perguruan tinggi guna menunjang kegiatan pembimbingan kemahasiswaan.</li>
+                <li>Peningkatan penataran dosen pembimbing dibidang kemahasiswaan.</li>
+                <li>Melibatkan mahasiswa dalam kegiatan kepanitiaan guna memberikan pengalaman berorganisasi.</li>
+                <li>Peningkatan studi banding dosen pembimbing, pimpinan organisasi kemahasiswaan dan mahasiswa di dalam dan di luar kampus.</li>
+            </ul>
+
+            <h3>Strategi pengembangan kemahasiswaan dalam bidang penalaran mencakup :</h3>
+            <ul>
+                <li>Meningkatkan budaya membaca, menulis, dan meneliti di kalangan mahasiswa.</li>
+                <li>Meningkatkan kegiatan Diklat Metodologi Penelitian, Kewirausahaan, Kepemimpinan, Berwawasan Kebangsaan, LKMM, Keagamaan, dll.</li>
+                <li>Meningkatkan kegiatan ilmiah yang diikuti mahasiswa.</li>
+                <li>Meningkatkan publikasi karya tulis ilmiah mahasiswa.</li>
+            </ul>
+
+            <h3>Strategi pengembangan kemahasiswaan dalam bidang minat dan kesejahteraan mahasiswa mencakup :</h3>
+            <ul>
+                <li>Meningkatkan kegiatan minat dikalangan mahasiswa.</li>
+                <li>Meningkatkan kegiatan penalaran/ceramah dibidang agama, kebudayaan, minat, dll.</li>
+                <li>Meningkatkan kegiatan pameran/festival dibidang minat.</li>
+                <li>Meningkatkan kegiatan penghayatan dan pengamalan Agama, Pancasila, Etika, dll.</li>
+                <li>Meningkatkan peran mahasiswa dalam kegiatan bakti sosial lingkungan hidup, mengatasi bahaya narkotika dan obat-obatan terlarang dan kejahatan pemuda/remaja.</li>
+                <li>Meningkatkan hubungan dengan pihak pemberi beasiswa dan penyediaan lapangan kerja alumni.</li>
+                <li>Meningkatkan pelayanan kesejahteraan mahasiswa melalui dana sosial mahasiswa.</li>
+            </ul>
+
+            <h3>Strategi pengembangan kemahasiswaan dalam bidang khusus meliputi :</h3>
+            <ul>
+                <li>Penyempurnaan peraturan kemahasiswaan bagi mahasiswa Program Diploma, Reguler, Karyawan, dan Dual Degree.</li>
+                <li>Peningkatan publikasi dan dokumentasi kegiatan kemahasiswaan.</li>
+                <li>Meningkatkan peran serta mahasiswa dalam rangka terwujudnya reformasi di Indonesia dalam segala bidang, seperti dialog 2 sisi.</li>
+            </ul>
+        </div>
+
+        <div class="tasks">
+            <h3>Tugas Kemahasiswaan ITB STIKOM Bali</h3>
+            <ul>
+                <li>Mengkordinir pemilihan DPM dan BEM serta pertanggungjawaban setelah selesai menjabat.</li>
+                <li>Mengkordinir dan mengarahkan organisasi mahasiswa yang akan melaksanakan kegiatan.</li>
+                <li>Melakukan pengecekan Pengajuan proposal kegiatan mahasiswa dan laporan pertanggungjawan kegiatan dan keuangan.</li>
+                <li>Mengkordinir dan mengawasi pembagian measiswa kepada mahasiswa.</li>
+                <li>Mengawasi dan menerapkan kedisiplinan mahasiswa.</li>
+                <li>Pendampingan kegiatan kemahasiswaan bidang internal maupun eksternal.</li>
+                <li>Membuat rekapan rencana kegiatan dan realisasi kegiatan setiap akhir tahun.</li>
+                <li>Mengarahkan organisasi mahasiswa dalam mengikuti lomba dan pencatatan prestasi.</li>
+            </ul>
+        </div>
+
+        <div class="ormawa">
+            <p>Sesuai maksud dan lingkup kegiatannya, satuan organisasi mahasiswa di ITB STIKOM Bali terdiri dari DPM, BEM, HIMAS, HIMAPRODI, dan UKM. Adapun Daftar Organisasi Mahasiswa (ORMAWA) yang aktif di ITB STIKOM Bali :</p>
+            <ul>
+                <li>DPM (Dewan Perwakilan Mahasiswa)</li>
+                <li>BEM Badan (Eksekutif Mahasiswa)</li>
+                <li>HIMAPRODI SI (Himpunan Mahasiswa Program Studi Sistem Informasi)</li>
+                <li>HIMAPRODI SK (Himpunan Mahasiswa Program Studi Sistem Komputer)</li>
+                <li>HIMAPRODI TI (Himpunan Mahasiswa Program Studi Teknologi Infromasi)</li>
+                <li>HIMAS Jimbaran (Himpunan Mahasiswa Kampus Jimbaran)</li>
+                <li>UKM Teater Biner (Unit Kegiatan Mahasiswa Teater Biner)</li>
+                <li>UKM D.O.S (Unit Kegiatan Mahasiswa Dance of STIKOM Bali)</li>
+                <li>UKM GHoST (Unit Kegiatan Mahasiswa Gymnastic and Healthy of STIKOM Bali)</li>
+                <li>UKM KMHD (Unit Kegiatan Mahasiswa Komunitas Mahasiswa Hindu Dharma)</li>
+                <li>UKM MCOS (Unit Kegiatan Mahasiswa Moslem Community of STIKOM Bali)</li>
+                <li>UKM PMK (Unit Kegiatan Mahasiswa Persaudaraan Mahasiswa Kristen)</li>
+                <li>UKM HIMATOGRAPHY (Unit Kegiatan Mahasiswa Himpunan Mahasiswa Photography)</li>
+                <li>UKM JUSTIFY (Unit Kegiatan Mahasiswa Journalis STIKOM Family)</li>
+                <li>UKM U2M (Unit Kegiatan Mahasiswa Unit Usaha Mahasiswa)</li>
+                <li>UKM BOSS (Unit Kegiatan Mahasiswa Badminton of STIKOM Bali)</li>
+                <li>UKM Musik (Unit Kegiatan Mahasiswa STIKOM Bali Music Community)</li>
+                <li>UKM Basket (Unit Kegiatan Mahasiswa STIKOM Bali Basketball Team)</li>
+                <li>UKM Futsal (Unit Kegiatan Mahasiswa STIKOM Bali Futsal Club)</li>
+                <li>UKM KSR PMI WB (Unit Kegiatan Mahasiswa Korps Sukarela PMI Widya Bhakti)</li>
+                <li>UKM MAPALA KOMPAS (Unit Kegiatan Mahasiswa Pecinta Alam KOMPAS STIKOM Bali)</li>
+                <li>UKM Multimedia (Unit Kegiatan Mahasiswa Multimedia)</li>
+                <li>UKM PASKAMRAS (Unit Kegiatan Mahasiswa Pasukan Keamanan Acara STIKOM Bali)</li>
+                <li>UKM PROGRESS (Unit Kegiatan Mahasiswa Programmers of STIKOM Bali)</li>
+                <li>UKM Tabuh (Unit Kegiatan Mahasiswa Tabuh Bramara Gita STIKOM Bali)</li>
+                <li>UKM Tari Tradisional (Unit Kegiatan Mahasiswa Tari Tradisional Pragina STIKOM Bali)</li>
+                <li>UKM VOS (Unit Kegiatan Mahasiswa Voice of STIKOM Bali)</li>
+                <li>UKM KSL (Unit Kegiatan Mahasiswa Kelompok Studi Linux)</li>
+                <li>UKM RADE (Unit Kegiatan Mahasiswa Robotics and Embedded System)</li>
+                <li>UKM JCOS (Unit Kegiatan Mahasiswa Japanese Community of STIKOM Bali)</li>
+                <li>UKM Syntax (Unit Kegiatan Mahasiswa Speaking Youth Entertaiment And Experience)</li>
+                <li>SKKM (SATUAN KREDIT KEGIATAN MAHASISWA)</li>
+            </ul>
+        </div>
+
+        <div class="skkm">
+            <h3>SKKM (Satuan Kredit Kegiatan Mahasiswa)</h3>
+            <p>SKKM adalah suatu pengakuan dan penilaian terhadap kegiatan yang diikuti mahasiswa ITB STIKOM Bali dalam pengembangan kegiatan kemahasiswaan yang diakui dalam bentuk kredit dengan besar sesuai dengan jenis dan pelaksanaan kegiatan yang diikuti.</p>
+            <p>Tujuan SKKM adalah meningkatkan peranan dan partisipasi aktif mahasiswa dalam setiap kegiatan kemahasiswaan dalam rangka peningkatan wawasan akademis dan non akademis mahasiswa, meningkatkan rasa kebersamaan dan persaudaraan antar mahasiswa, memberikan penghargaan atas partisipasi aktif mahasiswa dalam setiap kegiatan.</p>
+            <p>Penerapan SKKM merupakan suatu persayarat wajib bagi seluruh mahasiswa ITB STIKOM Bali yang akan mengikuti Ujian Akhir dimana dalam memperoleh pengesahan bebas administrasi dari Kemahasiswaan wajib menunjukkan Buku SKKM dengan point yang sudah dipenuhi. Mengikuti Kegiatan wajib dan Kegiatan Pilihan dimana S1 tolal kegiatan pilihan yg wajib diikuti 50 Point dan D3 32 Poin. Adapun alur pengakuan SKKM sebagai berikut:</p>
+            <div class="skkm-image">
+                <img src="Image/skkm.png" alt="Tempat gambar SKKM - ganti dengan gambar SKKM Anda">
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities-section">
+        <div class="container">
+            <h2 class="section-title">Fasilitas Mahasiswa</h2>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Ruang Kuliah Modern</h4>
+                    <p>Ruang kuliah ber-AC dengan fasilitas multimedia lengkap</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-laptop"></i>
+                    <h4>Laboratorium Komputer</h4>
+                    <p>Lab komputer dengan perangkat terbaru dan koneksi internet cepat</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-book"></i>
+                    <h4>Perpustakaan Digital</h4>
+                    <p>Koleksi buku dan jurnal digital yang dapat diakses 24/7</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-wifi"></i>
+                    <h4>WiFi Campus</h4>
+                    <p>Free WiFi dengan kecepatan tinggi di seluruh area kampus</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-utensils"></i>
+                    <h4>Kantin & Cafe</h4>
+                    <p>Kantin dan cafe dengan menu bervariasi dan harga terjangkau</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-running"></i>
+                    <h4>Fasilitas Olahraga</h4>
+                    <p>Lapangan olahraga dan ruang fitness untuk mahasiswa</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-pray"></i>
+                    <h4>Musholla</h4>
+                    <p>Tempat ibadah yang nyaman untuk seluruh sivitas akademika</p>
+                </div>
+                <div class="facility-card">
+                    <i class="fas fa-parking"></i>
+                    <h4>Area Parkir Luas</h4>
+                    <p>Parkir motor dan mobil yang aman dan terorganisir</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievement-section container section">
+        <h2 class="section-title">Prestasi Mahasiswa</h2>
+        <div class="achievement-timeline">
+            <div class="achievement-item">
+                <div class="achievement-date">Januari 2026</div>
+                <div class="achievement-content">
+                    <h4>🏆 Juara 1 Kompetisi Fotografi Jurnalistik Nasional</h4>
+                    <p>UKM HIMATOGRAPHY meraih juara pertama dalam lomba fotografi tingkat nasional</p>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-date">Desember 2025</div>
+                <div class="achievement-content">
+                    <h4>🏆 Best Performance Charity Night 2025</h4>
+                    <p>UKM Dance of STIKOM mendapat penghargaan penampilan terbaik</p>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-date">November 2025</div>
+                <div class="achievement-content">
+                    <h4>🏆 Juara 2 Hackathon Regional Bali</h4>
+                    <p>Tim dari Coding Club berhasil meraih runner up dalam kompetisi coding</p>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-date">Oktober 2025</div>
+                <div class="achievement-content">
+                    <h4>🏆 Best Cultural Performance</h4>
+                    <p>UKM Tari Tradisional menjadi yang terbaik di Festival Budaya Bali</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Bergabunglah dengan Kami!</h2>
+                <p>Kembangkan potensi dan bakat Anda bersama berbagai UKM dan organisasi di ITB STIKOM Bali</p>
+                <a href="kontak.html" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="Image/stikom2.png" alt="ITB STIKOM Bali Logo">
+                <p>Institut Teknologi dan Bisnis STIKOM Bali</p>
+            </div>
+            <div class="footer-links">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Puputan No. 86, Renon, Denpasar, Bali</p>
+                <p><i class="fas fa-phone-alt"></i> (0361) 244445</p>
+                <p><i class="fas fa-envelope"></i> info@stikom-bali.ac.id</p>
+            </div>
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/STIKOM.Bali"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/itbstikombali"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/stikombali/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>2026 ITB STIKOM BALI</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>

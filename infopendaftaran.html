@@ -1,0 +1,191 @@
+<!--
+Nama  : I Putu Agus Risky Suardana Putra
+NIM   : 24004011
+Kelas : BB244
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa Baru - ITB STIKOM Bali</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header>
+        <div class="container header-content">
+            <a href="home.html" class="logo">
+                <img src="Image/ITB-RESMI-300x300.png" alt="ITB STIKOM Bali Logo">
+            </a>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <!-- Menu 1: Halaman Utama (No Dropdown) -->
+                    <li><a href="home.html">Halaman Utama</a></li>
+                    
+                    <!-- Menu 2: Profile (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Profile <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="visi&misi.html">Visi dan Misi</a></li>
+                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.html">Sejarah</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 3: Keunggulan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Keunggulan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fasilitas.html">Fasilitas Kampus</a></li>
+                            <li><a href="prestasi.html">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 4: Akademik (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Akademik <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="program-studi.html">Fakultas Informatika & Komputer</a></li>
+                            <li><a href="program-studi2.html">Fakultas Bisnis & Vokasi</a></li>
+                            <li><a href="berita&pengumuman.html">Berita & Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 5: Kemahasiswaan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Kemahasiswaan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="kemahasiswaan.html">Bagian Kemahasiswaan</a></li>
+                            <li><a href="DPM.html">Dewan Perwakilan Mahasiswa (DPM)</a></li>
+                            <li><a href="BEM.html">Badan Eksekutif Mahasiswa (BEM)</a></li>
+                        </ul>
+                    </li>
+                
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO PENDAFTARAN ===== -->
+    <section class="page-header">
+        <h1>Pendaftaran Mahasiswa Baru</h1>
+        <p>Wujudkan Masa Depan Digital Bersama ITB STIKOM Bali</p>
+    </section>
+
+    <!-- ===== INFORMASI PENDAFTARAN ===== -->
+    <!-- ===== INFO PENDAFTARAN ===== -->
+    <section class="container section center">
+        <h2 class="section-title">Informasi Pendaftaran Mahasiswa Baru</h2>
+
+        <p class="section-description">
+            Halaman ini menyediakan informasi lengkap mengenai
+            proses pendaftaran mahasiswa baru di Institut Teknologi
+            dan Bisnis (ITB) STIKOM Bali, mulai dari persyaratan,
+            alur pendaftaran, hingga akses ke sistem pendaftaran resmi.
+        </p>
+
+        <p class="section-description">
+            Untuk melakukan pendaftaran secara online, silakan
+            mengakses sistem pendaftaran resmi ITB STIKOM Bali
+            melalui tautan berikut.
+        </p>
+    </section>
+
+    <!-- ===== ALUR PENDAFTARAN ===== -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title center">Alur Pendaftaran</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <i class="fas fa-edit"></i>
+                    <h3>1. Isi Formulir</h3>
+                    <p>Melakukan pendaftaran secara online.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-upload"></i>
+                    <h3>2. Unggah Berkas</h3>
+                    <p>Mengunggah dokumen persyaratan.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>3. Seleksi</h3>
+                    <p>Proses seleksi administrasi & akademik.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-user-check"></i>
+                    <h3>4. Daftar Ulang</h3>
+                    <p>Melakukan registrasi ulang setelah diterima.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="container section center">
+        <h2 class="section-title">Daftar Sekarang</h2>
+        <p class="section-description">
+            Bergabunglah bersama ribuan mahasiswa ITB STIKOM Bali
+            dan jadilah generasi unggul di bidang teknologi dan bisnis.
+        </p>
+
+        <a href="https://siap.stikom-bali.ac.id/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <i class="fas fa-external-link-alt"></i>
+            Pendaftaran Online
+        </a>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="Image/stikom2.png" alt="ITB STIKOM Bali Logo">
+                <p>Institut Teknologi dan Bisnis STIKOM Bali</p>
+            </div>
+            <div class="footer-links">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Puputan No. 86, Renon, Denpasar, Bali</p>
+                <p><i class="fas fa-phone-alt"></i> (0361) 244445</p>
+                <p><i class="fas fa-envelope"></i> info@stikom-bali.ac.id</p>
+            </div>
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/STIKOM.Bali"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/itbstikombali"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/stikombali/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>2026 ITB STIKOM BALI</p>
+        </div>
+    </footer>
+
+<script src="JS/script.js"></script>
+</body>
+</html>

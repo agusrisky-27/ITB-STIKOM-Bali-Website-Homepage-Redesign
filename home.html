@@ -1,0 +1,274 @@
+<!--
+Nama  : I Putu Agus Risky Suardana Putra
+NIM   : 24004011
+Kelas : BB244
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - ITB STIKOM Bali</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="home.html" class="logo">
+                <img src="Image/ITB-RESMI-300x300.png" alt="ITB STIKOM Bali Logo">
+            </a>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <!-- Menu 1: Halaman Utama (No Dropdown) -->
+                    <li><a href="home.html">Halaman Utama</a></li>
+                    
+                    <!-- Menu 2: Profile (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Profile <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="visi&misi.html">Visi dan Misi</a></li>
+                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.html">Sejarah</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 3: Keunggulan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Keunggulan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fasilitas.html">Fasilitas Kampus</a></li>
+                            <li><a href="prestasi.html">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 4: Akademik (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Akademik <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="program-studi.html">Fakultas Informatika & Komputer</a></li>
+                            <li><a href="program-studi2.html">Fakultas Bisnis & Vokasi</a></li>
+                            <li><a href="berita&pengumuman.html">Berita & Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Menu 5: Kemahasiswaan (Dengan Dropdown) -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Kemahasiswaan <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="kemahasiswaan.html">Bagian Kemahasiswaan</a></li>
+                            <li><a href="DPM.html">Dewan Perwakilan Mahasiswa (DPM)</a></li>
+                            <li><a href="BEM.html">Badan Eksekutif Mahasiswa (BEM)</a></li>
+                        </ul>
+                    </li>
+                
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Ayo Daftar Sekarang</h1>
+                <p>Pendaftaran Mahasiswa Baru T.A. 2026/2027 dimulai tanggal 28 Oktober 2025. Kuliah di Kampus ICT Terbaik di Bali Nusra yang semua Program Studinya sudah Terakreditasi B-BAN PT.</p>
+                <div class="hero-buttons">
+                    <a href="https://siap.stikom-bali.ac.id/" class="btn btn-primary">Daftar Sekarang</a>
+                    <a href="infopendaftaran.html" class="btn btn-secondary">Info Pendaftaran</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="mascot-slider">
+                    <div class="mascot-slide active">
+                        <img src="Image/stikoman-removebg-preview.png" alt="Maskot STIKOM Bali 1">
+                    </div>
+                    <div class="mascot-slide">
+                        <img src="Image/stikomann.png" alt="Maskot STIKOM Bali 2">
+                    </div>
+                    <div class="mascot-slide">
+                        <img src="Image/stikoman3.png" alt="Maskot STIKOM Bali 3">
+                    </div>
+                    <div class="slider-dots">
+                        <span class="dot active" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+                    <button class="slider-btn prev" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn next" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-preview container section">
+        <h2 class="section-title">Sekilas Tentang ITB STIKOM Bali</h2>
+        <p class="section-description">Berawal dari visi para pemerhati dan praktisi pendidikan, ITB STIKOM Bali telah tumbuh menjadi perguruan tinggi teknologi dan bisnis terkemuka di Bali dan Nusa Tenggara. Kami berdedikasi untuk mencetak lulusan yang kompeten dan siap bersaing di era digital.</p>
+        <a href="tentang.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+    </section>
+
+    <section class="programs container section">
+        <h2 class="section-title">Program Unggulan</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>Bisnis Digital</h3>
+                <p>Memahami dan mengimplementasikan pengelolaan bisnis berbasis digital dengan mengadopsi tren terkini di sektor industri e-commerce global.</p>
+                <a href="https://bisnisdigital.stikom-bali.ac.id/id/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>International Dual Degree</h3>
+                <p>Membentuk individu yang kompeten dalam Teknologi Informasi berstandar dunia dengan pengakuan dari HELP University.</p>
+                <a href="https://inter.dd.stikom-bali.ac.id/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Manajemen Informatika</h3>
+                <p>Membentuk individu yang memiliki keahlian di bidang komputer yang mampu mengelola, mengoperasikan serta mengimplementasikan teknologi terhadap kebutuhan perusahaan.</p>
+                <a href="https://manajemeninformatika.stikom-bali.ac.id/id/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Sistem Informasi</h3>
+                <p>Menghasilkan lulusan yang mampu merancang, mengembangkan, dan mengelola sistem informasi untuk mendukung proses bisnis organisasi secara efektif dan efisien.</p>
+                <a href="https://si.stikom-bali.ac.id/id/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h3>Teknologi Informasi</h3>
+                <p>Mencetak profesional IT yang handal dalam pengembangan aplikasi, infrastruktur jaringan, dan implementasi solusi teknologi informasi terkini.</p>
+                <a href="https://ti.stikom-bali.ac.id/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="icon-container">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h3>Sistem Komputer</h3>
+                <p>Membentuk ahli yang kompeten dalam perancangan sistem komputer, embedded system, dan IoT untuk mendukung era industri 4.0.</p>
+                <a href="https://www.stikom-bali.ac.id/id/stmik-stikom-bali-program-studi-sistem-komputer/" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3 class="stat-number">5000+</h3>
+                    <p>Mahasiswa Aktif</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3 class="stat-number">10000+</h3>
+                    <p>Alumni</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-award"></i>
+                    <h3 class="stat-number">100%</h3>
+                    <p>Akreditasi B</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-building"></i>
+                    <h3 class="stat-number">200+</h3>
+                    <p>Mitra Industri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-events container section">
+        <h2 class="section-title">Berita & Acara Terbaru</h2>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-content">
+                    <span class="news-date">8 Januari 2026</span>
+                    <h3>Jadi Barometer Transformasi Digital, ITB STIKOM Bali Terima Benchmarking IAHN Mpu Kuturan</h3>
+                    <p>ITB STIKOM Bali menerima kunjungan benchmarking dari IAHN Mpu Kuturan terkait tata kelola layanan terpadu dalam transformasi digital.</p>
+                    <a href="berita-detail-1.html" class="read-more-news">Baca Selengkapnya</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <div class="news-content">
+                    <span class="news-date">29 Desember 2025</span>
+                    <h3>UKM HIMATOGRAPHY ITB STIKOM Bali Berpartisipasi dalam Lomba Fotografi Jurnalistik PRESSLIST 15</h3>
+                    <p>UKM HIMATOGRAPHY mengukir prestasi dengan berpartisipasi aktif dalam kompetisi fotografi jurnalistik tingkat nasional.</p>
+                    <a href="berita-detail-2.html" class="read-more-news">Baca Selengkapnya</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <div class="news-content">
+                    <span class="news-date">20 Desember 2025</span>
+                    <h3>UKM HIMATOGRAPHY ITB STIKOM Bali Berpartisipasi dalam Lomba Fotografi Nasional "Face of Local Hero"</h3>
+                    <p>Mahasiswa ITB STIKOM Bali menunjukkan kreativitas melalui lomba fotografi bertema pahlawan lokal.</p>
+                    <a href="berita-detail-4.html" class="read-more-news">Baca Selengkapnya</a>
+                </div>
+            </article>
+        </div>
+        <div class="see-all-news">
+            <a href="berita&pengumuman.html" class="btn btn-secondary">Lihat Semua Berita</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="Image/stikom2.png" alt="ITB STIKOM Bali Logo">
+                <p>Institut Teknologi dan Bisnis STIKOM Bali</p>
+            </div>
+            <div class="footer-links">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Puputan No. 86, Renon, Denpasar, Bali</p>
+                <p><i class="fas fa-phone-alt"></i> (0361) 244445</p>
+                <p><i class="fas fa-envelope"></i> info@stikom-bali.ac.id</p>
+            </div>
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/STIKOM.Bali"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/itbstikombali"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/stikombali/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>2026 ITB STIKOM BALI</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
